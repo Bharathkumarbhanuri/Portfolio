@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Contact from "./components/Contact";
+import Nav from "./components/Nav";
+import Project from "./components/Project";
+import Home from "./components/Home";
+import About from "./components/About";
+import Experience from "./components/Experience";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="bg-black min-h-screen font-outfit w-full " >
+      <nav className="text-white flex py-4 px-12 gap-28 bg-slate-900 items-center">
+        <Nav />
+      </nav>
+      <main>
+        <section className="flex items-center bg-black py-20 justify-center gap-16 ">
+          <Home/>
+        </section>
+        <section id="about" className=" py-12">
+          <About/>
+        </section>
+        <section id="experience" className="flex justify-center px-36 py-12" >
+          <Experience/>
+        </section>
+        <section id="projects" className="px-36 pt-2 pb-8">
+          <Project/>
+        </section>
+        <section id="contact" className="px-36 py-8">
+          <Contact/>
+        </section>
+      </main>
+    </div>
   )
 }
 
