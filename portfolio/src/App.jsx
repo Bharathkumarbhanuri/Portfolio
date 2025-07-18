@@ -8,17 +8,17 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <div className="bg-black min-h-screen font-outfit w-full " >
-      <nav className="text-white flex py-4 px-12 gap-28 bg-slate-900 items-center">
+      <nav className="text-white flex flex-col md:flex-row py-4 px-6 md:px-12 gap-4 md:gap-28  bg-slate-900 items-center">
         <Nav />
       </nav>
       <main>
-        <section className="flex items-center bg-black py-20 justify-center gap-16 ">
+        <section className="flex flex-col md:flex-row items-center bg-black py-10 md:py-20 justify-center gap-10 md:gap-16 ">
           <Home/>
         </section>
-        <section id="about" className=" py-12">
+        <section id="about" className=" py-10 ">
           <About/>
         </section>
-        <section id="experience" className="flex justify-center px-36 py-12" >
+        <section id="experience" className="flex justify-center py-10 px-4 md:px-36" >
           <Experience/>
         </section>
         <section id="projects" className="px-36 pt-2 pb-8">

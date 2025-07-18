@@ -10,18 +10,18 @@ function Home() {
         return () => clearInterval(timer);
     }, []);
     return (
-        <>
-            <div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-4 sm:px-8 md:px-16">
+            <div className="text-center md:text-left max-w-3xl">
                 <p className="text-white text-xl mb-2">Hello,</p>
-                <p className="text-white text-5xl mb-2">I'm Bharath Kumar Bhanuri,</p>
-                <p className="text-lime-500 text-5xl mb-6">{texts[index]}</p>
+                <p className="text-white text-3xl sm:text-4xl md:text-5xl mb-2">I'm Bharath Kumar Bhanuri,</p>
+                <p className="text-lime-500 text-3xl sm:text-4xl md:text-5xl mb-6">{texts[index]}</p>
                 <p className="text-gray-300 text-lg mb-8">
                     I'm a passionate developer focused on
-                    Full-Stack development <br /> and IoT, building smart,
+                    Full-Stack development <br className="hidden sm:block" /> and IoT, building smart,
                     user-friendly solutions to real-world problems.
                 </p>
-                <div className="text-white flex justify-between items-center gap-3 text-3xl">
-                    <div className="flex gap-3 ">
+                <div className="text-white flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
+                    <div className="flex gap-4 text-2xl md:text-3xl">
                         <a href="https://github.com/Bharathkumarbhanuri" className="hover:scale-150" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                         </a>
@@ -55,9 +55,9 @@ function Home() {
             <img
                 src="/bharath.jpg"
                 alt="bharath"
-                className="h-80 w-80  object-cover rounded-full"
+                className="h-40 w-40 sm:h-60 sm:w-60 md:h-80 md:w-80  object-cover rounded-full"
             />
-        </>
+        </div>
     )
 }
 
