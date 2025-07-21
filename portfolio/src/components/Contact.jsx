@@ -34,7 +34,7 @@ function Contact() {
                     <p className='mb-6 text-lg'> Feel free to drop your message using the form.
                         Thank you for reaching out in advance</p>
                     <p className="flex items-center gap-2 mb-3 text-base"><FiMail className='text-xl' />bhanuribharath@gmail.com</p>
-                    <p className="flex items-center gap-2 mb-3 text-base"><FiPhone className='text-xl' />+91 7989221589</p>
+                    <p className="flex items-center gap-2 mb-3 text-base"><FiPhone className='text-xl' />+91-7989221589</p>
                     <p className="flex items-center gap-2 mb-3 text-base"><FiMapPin className='text-xl' />Hyderabad, Telangana.</p>
                     <a href="https://github.com/Bharathkumarbhanuri"
                         className=" flex items-center gap-2 mb-3 text-base hover:text-violet-500 transition"
