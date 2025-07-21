@@ -28,21 +28,21 @@ function Contact() {
     return (
         <div className='bg-black'>
             <h1 className=' text-3xl md:text-5xl text-center text-lime-500 md:mb-12'>Contact Me</h1>
-            <div className='mx-auto flex flex-col md:flex-row gap-10 md:gap-36'>
+            <div className='mx-auto flex flex-col md:flex-row gap-8 md:gap-36'>
                 <div className='text-white md:w-1/2'>
                     <h1 className='text-3xl md:text-5xl mb-4 mt-8'>Let's talk</h1>
                     <p className='mb-6 text-lg'> Feel free to drop your message using the form.
                         Thank you for reaching out in advance</p>
-                    <p className="flex items-center gap-2 mb-3 text-lg"><FiMail className='text-2xl' />bhanuribharath@gmail.com</p>
-                    <p className="flex items-center gap-2 mb-3 text-lg"><FiPhone className='text-2xl' />7989221589</p>
-                    <p className="flex items-center gap-2 mb-3 text-lg"><FiMapPin className='text-2xl' />Hyderabad, Telangana.</p>
+                    <p className="flex items-center gap-2 mb-3 text-base"><FiMail className='text-xl' />bhanuribharath@gmail.com</p>
+                    <p className="flex items-center gap-2 mb-3 text-base"><FiPhone className='text-xl' />+91 7989221589</p>
+                    <p className="flex items-center gap-2 mb-3 text-base"><FiMapPin className='text-xl' />Hyderabad, Telangana.</p>
                     <a href="https://github.com/Bharathkumarbhanuri"
-                        className=" flex items-center gap-2 mb-3 text-lg hover:text-violet-500 transition"
+                        className=" flex items-center gap-2 mb-3 text-base hover:text-violet-500 transition"
                         target="_blank" rel="noopener noreferrer">
                         <FaGithub className='text-2xl' /> Bharathkumarbhanuri
                     </a>
                     <a href="https://www.linkedin.com/in/bhanuri-bharath-kumar-48b745243"
-                        className=" flex items-center gap-2 mb-3 text-lg hover:text-blue-500 transition"
+                        className=" flex items-center gap-2 mb-3 text-base hover:text-blue-500 transition"
                         target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className='text-2xl' /> Bhanuri Bharath Kumar
                     </a>
