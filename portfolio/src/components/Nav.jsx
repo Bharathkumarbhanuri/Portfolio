@@ -14,7 +14,7 @@ function Nav() {
       </div>
       <a href="#contact">
         <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 
-            shadow-lg shadow-lime-500/25 font-medium rounded-lg  px-4 py-2 text-center text-sm sm:py-2.5 mb-2">
+            shadow-lg shadow-lime-500/25 font-medium rounded-lg  px-4 py-2 text-center text-sm sm:py-2.5 mb-2 hidden md:block">
           Connect with me
         </button>
       </a>

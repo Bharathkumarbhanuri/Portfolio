@@ -15,7 +15,7 @@ function App() {
         <section className="flex flex-col md:flex-row items-center bg-black py-10 md:py-20 justify-center gap-10 md:gap-16 ">
           <Home/>
         </section>
-        <section id="about" className=" py-10 ">
+        <section id="about" className=" py-8">
           <About/>
         </section>
         <section id="experience" className="py-10 px-2 md:px-36" >

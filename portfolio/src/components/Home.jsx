@@ -22,13 +22,13 @@ function Home() {
                 </p>
                 <div className="text-white flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
                     <div className="flex gap-4 text-2xl md:text-3xl">
-                        <a href="https://github.com/Bharathkumarbhanuri" className="hover:scale-150" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Bharathkumarbhanuri" className="hover:scale-125 transition-all ease-in-out" target="_blank" rel="noopener noreferrer">
                             <FaGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/bhanuri-bharath-kumar-48b745243" className="hover:scale-150" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/bhanuri-bharath-kumar-48b745243" className="hover:scale-125 transition-all ease-in-out" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin />
                         </a>
-                        <a href="https://www.instagram.com/_bharath.____?igsh=ZDRraHlhMTY3bXFt" className="hover:scale-150" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/_bharath.____?igsh=ZDRraHlhMTY3bXFt" className="hover:scale-125 transition-all ease-in-out" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </div>
