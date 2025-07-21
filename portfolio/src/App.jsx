@@ -18,13 +18,13 @@ function App() {
         <section id="about" className=" py-10 ">
           <About/>
         </section>
-        <section id="experience" className="flex justify-center py-10 px-4 md:px-36" >
+        <section id="experience" className="py-10 px-2 md:px-36" >
           <Experience/>
         </section>
-        <section id="projects" className="px-36 pt-2 pb-8">
+        <section id="projects" className="px-6 md:px-36 pt-2 pb-8">
           <Project/>
         </section>
-        <section id="contact" className="px-36 py-8">
+        <section id="contact" className="px-6 md:px-36 py-8">
           <Contact/>
         </section>
       </main>

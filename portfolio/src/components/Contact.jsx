@@ -27,10 +27,10 @@ function Contact() {
 
     return (
         <div className='bg-black'>
-            <h1 className=' text-4xl md:text-5xl text-center text-lime-500 mb-4 md:mb-12'>Contact Me</h1>
+            <h1 className=' text-3xl md:text-5xl text-center text-lime-500 md:mb-12'>Contact Me</h1>
             <div className='mx-auto flex flex-col md:flex-row gap-10 md:gap-36'>
                 <div className='text-white md:w-1/2'>
-                    <h1 className='text-4xl md:text-5xl mb-4 mt-8'>Let's talk</h1>
+                    <h1 className='text-3xl md:text-5xl mb-4 mt-8'>Let's talk</h1>
                     <p className='mb-6 text-lg'> Feel free to drop your message using the form.
                         Thank you for reaching out in advance</p>
                     <p className="flex items-center gap-2 mb-3 text-lg"><FiMail className='text-2xl' />bhanuribharath@gmail.com</p>

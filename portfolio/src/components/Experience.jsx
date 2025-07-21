@@ -3,12 +3,12 @@ import ExperienceCard from './ExperienceCard'
 
 function Experience() {
   return (
-    <>
-      <div className="text-white text-center md:text-left px-4 md:px-0 mb-6">
+    <div className='flex justify-center'>
+      <div className="text-white text-center md:text-left px-0 md:px-0 mb-6">
         <p className=" text-3xl sm:text-4xl md:text-5xl text-lime-500">Leadership & Responsibilities</p>
         <p className=" text-xs sm:text-sm px-1">Club & Community Contributions</p>
       </div>
-      <div className="flex flex-col px-4 md:px-0">
+      <div className="flex flex-col px-2 md:px-0">
         <ExperienceCard
           title='Ranaveera Head - The Robotics Club, SNIST'
           duration='Sep 2024 - Nov 2024'
@@ -30,7 +30,7 @@ function Experience() {
           description='Guided a 9-member team on NIYANTRAN, a voice-controlled smart wheelchair for people with limited mobility, using Arduino and sensors for hands-free movement.'
         />
       </div>
-    </>
+    </div>
   )
 }
 

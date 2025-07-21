@@ -10,7 +10,7 @@ function Home() {
         return () => clearInterval(timer);
     }, []);
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-4 sm:px-8 md:px-16">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-4 sm:px-8 md:px-16">
             <div className="text-center md:text-left max-w-3xl">
                 <p className="text-white text-xl mb-2">Hello,</p>
                 <p className="text-white text-3xl sm:text-4xl md:text-5xl mb-2">I'm Bharath Kumar Bhanuri,</p>
@@ -55,7 +55,7 @@ function Home() {
             <img
                 src="/bharath.jpg"
                 alt="bharath"
-                className="h-40 w-40 sm:h-60 sm:w-60 md:h-80 md:w-80  object-cover rounded-full"
+                className="h-60 w-60 sm:h-60 sm:w-60 md:h-80 md:w-80 object-cover rounded-full"
             />
         </div>
     )
