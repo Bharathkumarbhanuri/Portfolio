@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaInstagram, FaDownload } from "react-icons/fa";
-import FacebookIconShare from "./FacebookIconShare";
 function Home() {
     const texts = ["Web Developer", "UI Designer", "Problem Solver"];
     const [index, setIndex] = useState(0);
@@ -32,7 +31,6 @@ function Home() {
                         <a href="https://www.instagram.com/_bharath.____?igsh=ZDRraHlhMTY3bXFt" className="hover:scale-125 transition-all ease-in-out" target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
-                        <FacebookIconShare />
                     </div>
 
                     <div className="flex gap-3">
